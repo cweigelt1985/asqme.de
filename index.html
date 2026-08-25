@@ -3,37 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>ASQME | Arbeitssicherheit · Qualitätsmanagement · Energie</title>
 
+<meta name="description"
+content="ASQME - Christoph Weigelt. Beratung für Arbeitssicherheit, Qualitätsmanagement, Managementsysteme und Energie.">
+
 <style>
-footer {
-    background: #111827;
-    color: #cbd5e1;
-    text-align: center;
-    padding: 28px 20px;
-}
 
-footer p {
-    margin: 6px 0;
-}
-
-footer a {
-    color: #ffffff;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-}
-
-footer a:hover,
-footer a:focus {
-    color: #7ae7ff;
-}
-    
-    :root{
+:root{
     --primary:#005a87;
     --secondary:#00a3a3;
     --dark:#1f2937;
     --light:#f5f7fa;
-    --white:#ffffff;
 }
 
 *{
@@ -43,10 +25,9 @@ footer a:focus {
 }
 
 body{
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family:"Segoe UI", Arial, sans-serif;
     line-height:1.6;
     color:var(--dark);
-    background:white;
 }
 
 .container{
@@ -67,24 +48,30 @@ header{
     text-align:center;
 }
 
-.hero h1{
-    font-size:4rem;
+.hero-logo{
+    width:300px;
+    max-width:90%;
+    height:auto;
     margin-bottom:20px;
-    letter-spacing:3px;
 }
 
 .hero p{
-    font-size:1.4rem;
-    margin-bottom:30px;
+    font-size:1.3rem;
+    margin-bottom:25px;
+}
+
+.highlight{
+    color:#d7ffff;
+    font-weight:bold;
 }
 
 .btn{
     display:inline-block;
-    padding:15px 30px;
     background:white;
     color:var(--primary);
-    text-decoration:none;
+    padding:15px 30px;
     border-radius:50px;
+    text-decoration:none;
     font-weight:bold;
     transition:0.3s;
 }
@@ -99,9 +86,9 @@ section{
 
 .section-title{
     text-align:center;
-    margin-bottom:50px;
-    font-size:2.2rem;
     color:var(--primary);
+    margin-bottom:50px;
+    font-size:2rem;
 }
 
 .cards{
@@ -114,7 +101,7 @@ section{
     background:white;
     border-radius:15px;
     padding:30px;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
 }
 
 .card h3{
@@ -127,7 +114,7 @@ section{
 }
 
 .card li{
-    margin-bottom:10px;
+    margin-bottom:8px;
 }
 
 .about{
@@ -135,7 +122,7 @@ section{
 }
 
 .about-content{
-    max-width:850px;
+    max-width:900px;
     margin:auto;
     text-align:center;
     font-size:1.1rem;
@@ -154,20 +141,24 @@ section{
 
 footer{
     background:#111827;
-    color:#aaa;
+    color:#cbd5e1;
     text-align:center;
-    padding:20px;
+    padding:25px;
 }
 
-.highlight{
-    color:var(--secondary);
-    font-weight:bold;
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#7ae7ff;
 }
 
 @media(max-width:768px){
 
-.hero h1{
-    font-size:2.8rem;
+.hero-logo{
+    width:220px;
 }
 
 .hero p{
@@ -175,184 +166,202 @@ footer{
 }
 
 }
+
 </style>
 </head>
 
 <body>
 
 <header>
-<div class="container hero">
+    <div class="container hero">
 
-<h1>ASQME</h1>
+        <img src="Logo ASQME.jpg"
+             alt="ASQME Logo"
+             class="hero-logo">
 
-<p>
-<span class="highlight">Ask Me.</span><br>
-Arbeitssicherheit · Qualitätsmanagement · Energie
-</p>
+        <p>
+   cherheit · Qualitätsmanagement · Energie
+        </p>
 
-<p>
-Ihr Partner für sichere Prozesse, wirksame Managementsysteme
-und nachhaltige Energielösungen.
-</p>
+        <p>
+            Ihr Partner für sichere Prozesse,
+            wirksame Managementsysteme
+            und nachhaltige Energielösungen.
+        </p>
 
-<a href="#kontakt" class="btn">Kontakt</header>
+        #kontakt
+            Kontakt aufnehmen
+        </a>
+
+    </div>
+</header>
 
 <section id="leistungen">
-<div class="container">
 
-<h2 class="section-title">Leistungen</h2>
+    <div class="container">
 
-<div class="cards">
+        <h2 class="section-title">Leistungen</h2>
 
-<div class="card">
-<h3>🦺 Arbeitssicherheit</h3>
-<ul>
-<li>Fachkraft für Arbeitssicherheit</li>
-<li>DGUV Vorschrift 2</li>
-<li>Gefährdungsbeurteilungen</li>
-<li>Sicherheitsbegehungen & Audits</li>
-<li>Maschinensicherheit</li>
-<li>Gefahrgutmanagement & Gefahrstoffe</li>
-<li>Unterweisungen und Schulungen</li>
-<li>Ladungssicherung</li>
-</ul>
-</div>
+        <div class="cards">
 
-<div class="card">
-<h3>✅ Qualitätsmanagement</h3>
-<ul>
-<li>ISO 9001</li>
-<li>ISO 14001</li>
-<li>ISO 45001</li>
-<li>ISO 50001</li>
-<li>Interne Audits</li>
-<li>Prozessoptimierung</li>
-<li>LEAN-Management & TPM</li>
-<li>Krisenmanagement</li>
-</ul>
-</div>
+            <div class="card">
+                <h3>🦺 Arbeitssicherheit</h3>
 
-<div class="card">
-<h3>⚡ Energie</h3>
-<ul>
-<li>Energieberatung</li>
-<li>Energieaudits</li>
-<li>Energiemanagement</li>
-<li>Energieeffizienz-Beratung</li>
-<li>Fördermittelberatung</li>
-</ul>
-</div>
+                <ul>
+                    <li>Fachkraft für Arbeitssicherheit</li>
+                    <li>DGUV Vorschrift 2</li>
+                    <li>Gefährdungsbeurteilungen</li>
+                    <li>Sicherheitsbegehungen und Audits</li>
+                    <li>Maschinensicherheit</li>
+                    <li>Gefahrgutmanagement</li>
+                    <li>Unterweisungen und Schulungen</li>
+                    <li>Ladungssicherung</li>
+                </ul>
+            </div>
 
-</div>
-</div>
+            <div class="card">
+                <h3>✅ Qualitätsmanagement</h3>
+
+                <ul>
+                    <li>ISO 9001</li>
+                    <li>ISO 14001</li>
+                    <li>ISO 45001</li>
+                    <li>ISO 50001</li>
+                    <li>Interne Audits</li>
+                    <li>Prozessoptimierung</li>
+                    <li>LEAN-Management</li>
+                    <li>Krisenmanagement</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>⚡ Energie</h3>
+
+                <ul>
+                    <li>Energieberatung</li>
+                    <li>Energieaudits</li>
+                    <li>Energiemanagement</li>
+                    <li>Energieeffizienz-Beratung</li>
+                    <li>Fördermittelberatung</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
 <section class="about">
 
-<div class="container">
+    <div class="container">
 
-<h2 class="section-title">Über ASQME</h2>
+        <h2 class="section-title">Über ASQME</h2>
 
-<div class="about-content">
+        <div class="about-content">
 
-<p>
-ASQME steht in Anlehnung an das englische
-<strong>"Ask Me"</strong> für persönliche,
-kompetente Beratung in den Bereichen
-Arbeitssicherheit, Qualitätsmanagement und Energie.
-</p>
+            <p>
+                ASQME steht in Anlehnung an das englische
+                „Ask Me“ für persönliche und kompetente
+                Beratung in den Bereichen Arbeitssicherheit,
+                Qualitätsmanagement und Energie.
+            </p>
 
-<br>
+            <br>
 
-<p>
-Ich unterstütze Unternehmen dabei,
-gesetzliche Anforderungen sicher umzusetzen,
-Managementsysteme wirksam einzuführen und
-nachhaltige Verbesserungen zu erreichen.
-Praxisnahe Lösungen und eine partnerschaftliche
-Zusammenarbeit stehen dabei im Mittelpunkt.
-</p>
+            <p>
+                Ich unterstütze Unternehmen bei der
+                Umsetzung gesetzlicher Anforderungen,
+                der Einführung von Managementsystemen
+                sowie der nachhaltigen Optimierung
+                von Prozessen und Energieeffizienz.
+            </p>
 
-</div>
+        </div>
 
-</div>
+    </div>
 
 </section>
 
 <section>
 
-<div class="container">
+    <div class="container">
 
-<h2 class="section-title">Warum ASQME?</h2>
+        <h2 class="section-title">Warum ASQME?</h2>
 
-<div class="cards">
+        <div class="cards">
 
-<div class="card">
-<h3>Praxisnah</h3>
-<p>
-Keine theoretischen Konzepte, sondern Lösungen,
-die im Betriebsalltag funktionieren.
-</p>
-</div>
+            <div class="card">
+                <h3>Praxisnah</h3>
+                <p>
+                    Lösungen, die im betrieblichen Alltag funktionieren.
+                </p>
+            </div>
 
-<div class="card">
-<h3>Persönlich</h3>
-<p>
-Direkte Betreuung ohne Umwege –
-von der ersten Beratung bis zur Umsetzung.
-</p>
-</div>
+            <div class="card">
+                <h3>Persönlich</h3>
+                <p>
+                    Direkter Ansprechpartner von der ersten Beratung bis zur Umsetzung.
+                </p>
+            </div>
 
-<div class="card">
-<h3>Ganzheitlich</h3>
-<p>
-Sicherheit, Qualität und Energie werden
-als zusammenhängende Erfolgsfaktoren betrachtet.
-</p>
-</div>
+            <div class="card">
+                <h3>Ganzheitlich</h3>
+                <p>
+                    Sicherheit, Qualität und Energie aus einer Hand.
+                </p>
+            </div>
 
-</div>
+        </div>
 
-</div>
+    </div>
 
 </section>
 
 <section id="kontakt" class="contact">
 
-<div class="container">
+    <div class="container">
 
-<h2 class="section-title" style="color:white;">Kontakt</h2>
+        <h2 class="section-title" style="color:white;">
+            Kontakt
+        </h2>
 
-<p><strong>Christoph Weigelt</strong></p>
+        <p><strong>Christoph Weigelt</strong></p>
 
-<p>Sicherheitsingenieur</p>
+        <p>Sicherheitsingenieur</p>
 
-<br>
+        <br>
 
-<p>
-📧 <a href="mailto:cweigelt@asqme.de">cweigelt@asqme.de</a>
-</p>
+        <p>
+            📧
+            <a href="mailto:cweigelt@asqme.de">
+                cweigelt@asqme.de
+            </a>
+        </p>
 
-<p>
-🌐 asqme.de
-</p>
+        <p>🌐 asqme.de</p>
 
-<p>
-📍 Calbe (Saale)
-</p>
+        <p>📍 Calbe (Saale)</p>
 
-</div>
+    </div>
 
 </section>
 
 <footer>
+
     <p>
         impressum.htmlImpressum</a>
         |
-        <a href="tz.htmlDatenschutz</a>
+        datenschutz.htmlDatenschutz</a>
     </p>
+
+    <br>
 
     <p>
         © 2026 ASQME – Arbeitssicherheit · Qualitätsmanagement · Energie
     </p>
+
 </footer>
+
+</body>
+</html>
